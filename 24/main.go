@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	p1 := *point.NewPoint(1, 1)
-	p2 := *point.NewPoint(6, 4)
+	p1 := point.NewPoint(1, 1)
+	p2 := point.NewPoint(6, 4)
 	fmt.Println(point.Distance(p1, p2))
 }
